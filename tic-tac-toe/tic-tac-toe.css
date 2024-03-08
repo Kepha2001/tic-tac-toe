@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.players-board {
+  margin-top: 100px;
+  border: 2px solid black;
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid black;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.tic-tac-toe-cell-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: auto;
+}
+
+.player-timer {
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
+  font-size: 38px;
+  text-align: center;
+}
+
+.start {
+  margin: 30px;
+  text-align: center;
+}
+
+.start-but {
+  width: 80px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.start-but:hover {
+  opacity: 0.8;
+}
+
+.hidden {
+    display: none;
+}
